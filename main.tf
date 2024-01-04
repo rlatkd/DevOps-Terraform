@@ -39,7 +39,7 @@ module "s3" {
 }
 
 
-# rds.tf를 참조하여 rds 생성1
+# rds.tf를 참조하여 rds 생성
 module "rds" {
   source = "./module/rds.tf"
 }
